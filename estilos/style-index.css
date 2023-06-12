@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenedor{
+    border: solid black;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+}
+
+.carousel-inner{ /*Contiene todas las imagenes y al texto tambien*/
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    justify-content: center;
+    border: solid rgb(255, 111, 0);
+}
+.carousel-item{ /*Contiene a la imagen y al texto*/
+    justify-content: center;
+    margin-bottom: 10%;
+    border: solid rgb(0, 255, 8);
+}
+
+#itemsfijoscentrados{
+    display: block;
+
+}
+.carouselcaption{ /*Contiene al texto*/
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(247, 140, 140);
+    /*margin-bottom: -7%;*/
+    border: solid rgb(255, 0, 0);
+}
+
+.modencabezado{
+    color: solid rgb(0, 0, 0);
+    text-shadow: -4px 0.5px 1px white;
+    background-color: red;
+    font-size: 2em;
+}
+.modtitle{
+    color: solid rgb(0, 0, 0);
+    text-shadow: -2px 0px 2px white;
+}
+
+.modtext{
+    color: solid rgb(0, 0, 0);
+    
+}
+
+.tamañoimagen{ /*La imagen*/
+    width: 50%;
+}
