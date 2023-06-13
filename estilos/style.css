@@ -44,6 +44,7 @@ section{
     margin-bottom: 5%;
     border-radius: 0px 0px 15px 15px;
     width: 70%;
+    height: 130px;
 }
 
 .encmarvel{
@@ -65,7 +66,7 @@ section{
     font-weight: bold;
 }
 
-.tamañoimagen{ /*La imagen*/
+.tamañoimagencarru1{ /*La imagen*/
     width: 70%;
     border-radius: 15px 15px 0px 0px;
     margin-top: 5%;
