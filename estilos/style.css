@@ -47,12 +47,19 @@ section{
     height: 130px;
 }
 
-.encmarvel{
+.encabezadocarru1{
     color: solid rgb(0, 0, 0);
     text-shadow: -4px 0.5px 1px white;
     background-color: red;
     font-size: 50px;
 }
+.encabezadocarru2{
+    color: solid rgb(0, 0, 0);
+    text-shadow: -4px 0.5px 1px white;
+    background-color: blue;
+    font-size: 50px;
+}
+
 .modtitle{
     color: solid rgb(0, 0, 0);
     text-shadow: -2px 0px 2px white;
