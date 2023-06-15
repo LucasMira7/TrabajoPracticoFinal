@@ -1,0 +1,20 @@
+div{
+    display: flex;
+    justify-content: center;  
+}
+
+.boton{
+    width: max-content;
+    border: solid black;
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+    font-size: 131px;
+}
+
+.boton:hover{
+    background-color: rgba(86, 180,240, 1);
+    opacity: 70%;
+    font-size: 80px;
+    border-radius: 50%;
+}
