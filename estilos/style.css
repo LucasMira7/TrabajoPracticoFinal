@@ -85,7 +85,7 @@ section{
     z-index: 1;
 }
 
-#botonplay{
+.botonplay{
     margin-top: 50%;
     position: absolute;
     z-index: 2;
@@ -93,7 +93,7 @@ section{
     border: none;
 }
 
-#botonplay:hover{
+.botonplay:hover{
     z-index: 4;
     background-color: rgb(214,214,214);
     border-radius: 20%;
