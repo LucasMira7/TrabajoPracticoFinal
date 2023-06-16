@@ -5,6 +5,9 @@
 
 body{
     background-image: url(../../TrabajoPracticoFinal/img/fondocine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: min-content;
 }
 
 section{
