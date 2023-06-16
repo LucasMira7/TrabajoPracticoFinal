@@ -42,7 +42,7 @@ section{
     align-items: center;
 }
 .carouselcaption{ /*Contiene el texto*/
-    background-color: rgb(247, 140, 140);
+    background-color: rgb(252, 175, 75);
     margin-bottom: 5%;
     border-radius: 0px 0px 15px 15px;
     width: 70%;
@@ -58,7 +58,25 @@ section{
 .encabezadocarru2{
     color: solid rgb(0, 0, 0);
     text-shadow: -4px 0.5px 1px white;
-    background-color: blue;
+    background-color: rgb(45, 45, 238);
+    font-size: 50px;
+}
+.encabezadocarru3{
+    color: solid rgb(0, 0, 0);
+    text-shadow: -4px 0.5px 1px white;
+    background-color: rgb(144, 37, 54);
+    font-size: 50px;
+}
+.encabezadocarru4{
+    color: solid rgb(0, 0, 0);
+    text-shadow: -4px 0.5px 1px white;
+    background-color: rgba(194, 189,154, 1);
+    font-size: 50px;
+}
+.encabezadocarru5{
+    color: solid rgb(0, 0, 0);
+    text-shadow: -4px 0.5px 1px white;
+    background-color: rgb(255, 217, 0);
     font-size: 50px;
 }
 /*-------------------------------------------------------*/
@@ -104,3 +122,16 @@ section{
     font-weight: bold;
 }
 /*------------------------------------------------------------------------------------------*/
+aside{
+    height: max-content;
+    text-align: center;
+}
+aside>h1{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(246, 171, 144);
+    font-size: 50px;
+}
+aside>iframe{
+    border-radius: 4%;
+    margin-top: -0.5%;
+}

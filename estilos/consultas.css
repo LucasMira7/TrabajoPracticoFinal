@@ -1,4 +1,43 @@
 *{
+    font-family: Verdana;
     margin: 0%;
     padding: 0%;
+}
+body{
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    background-repeat: no-repeat;
+}
+section{
+    text-align: center;
+    font-size: x-large;
+}
+
+#formu{
+    border-radius: 10%;
+    overflow: auto;
+    padding: 1%;
+    margin: 15% 30% 15% 30%;
+    background-color: bisque;
+}
+#formu>h1{
+    font-size: 40px;
+}
+
+.campos{
+    height: 150px;
+    width: 500px;
+}
+
+#nombre{
+    background-color: rgb(255, 255, 255, .7);
+}
+
+#btn{
+    padding: 0.5% 2% 0.5% 2%;
+    font-size: x-large;
+    border-radius: 8%;
+    background-color: rgb(255, 255, 255, .7);
+}
+#btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
 }
