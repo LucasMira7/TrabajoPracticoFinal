@@ -12,7 +12,9 @@ body{
 /*-------------------------------------- Contenedores ------------------------------------*/
 section{
     display: flex;
+    justify-content: center;
 }
+
 .contenedor{
     border: solid black;
     justify-content: center;
