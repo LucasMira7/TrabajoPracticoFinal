@@ -36,25 +36,8 @@ section>div>img{
     font-size: 80px;
     border-radius: 50%;
 }
-
-@media(min-width: 320px){
-    section{
-        margin-top: 50%;
-    }
-
-    section>div>img{
-    height: 250px;
-    }
-
-    .boton{
-    width: max-content;
-    padding: 1%;
-    font-size: 70px;
-    }
-
-}
-
-@media (min-width: 768px){
+/*---MEDIA QUERY---*/
+@media (max-width: 768px){
     section{
         margin-top: 15%;
     }
@@ -67,6 +50,23 @@ section>div>img{
     width: max-content;
     padding: 1%;
     font-size: 100px;
+    }
+
+}
+
+@media(max-width: 320px){
+    section{
+        margin-top: 50%;
+    }
+
+    section>div>img{
+    height: 250px;
+    }
+
+    .boton{
+    width: max-content;
+    padding: 1%;
+    font-size: 70px;
     }
 
 }

@@ -20,14 +20,15 @@ body{
     border-radius: 1% 30% 10% 10%;
 }
 
-@media(min-width: 320px){
+/*---MEDIA QUERY---*/
+@media (max-width: 768px){
     .col>iframe{
         width: 300px;
         height: 250px;
     }
 }
 
-@media (min-width: 768px){
+@media(max-width: 320px){
     .col>iframe{
         width: 300px;
         height: 250px;

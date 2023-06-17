@@ -138,24 +138,7 @@ aside>iframe{
     overflow: hidden;
 }
 /*---MEDIA QUERY---*/
-@media(min-width: 320px){
-    section{
-        display: block;
-        margin-left: 3%;
-    }
-
-    aside>h1{
-    font-size: 40px;
-    }
-
-    aside>iframe{
-        width: 300px;
-        height: 200px;       
-    }
-
-}
-
-@media (min-width: 768px){
+@media (max-width: 768px){
     section{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(50%, 2fr));
@@ -169,6 +152,23 @@ aside>iframe{
     aside>iframe{
         width: 400px;
         height: 300px;       
+    }
+
+}
+
+@media (max-width: 320px){
+    section{
+        display: block;
+        margin-left: 3%;
+    }
+
+    aside>h1{
+    font-size: 40px;
+    }
+
+    aside>iframe{
+        width: 300px;
+        height: 200px;       
     }
 
 }

@@ -47,38 +47,7 @@ section{
     background-color: rgba(0, 0, 0, 0.5);
 }
 /*---MEDIA QUERY---*/
-@media (min-width:320px){
-    section{
-        font-size: x-small;
-    }
-
-    #formu>h1{
-    font-size: 20px;
-    }
-
-    #formu{
-    border-radius: 10%;
-    overflow: auto;
-    padding: 1%;
-    margin: 43% 10% 43% 10%;
-    }
-
-    .campos{
-        height: 100px;
-        width: 250px;
-    }
-    
-    .camposnya{
-        height: 25px;
-        width: 200px;
-    }
-
-    #btn{
-        font-size: medium;
-    }
-}
-
-@media (min-width:768px){
+@media (max-width:768px){
     section{
         font-size: medium;
     }
@@ -102,6 +71,37 @@ section{
     .camposnya{
         height: 30px;
         width: 300px;
+    }
+
+    #btn{
+        font-size: medium;
+    }
+}
+
+@media (max-width:320px){
+    section{
+        font-size: x-small;
+    }
+
+    #formu>h1{
+    font-size: 20px;
+    }
+
+    #formu{
+    border-radius: 10%;
+    overflow: auto;
+    padding: 1%;
+    margin: 43% 10% 43% 10%;
+    }
+
+    .campos{
+        height: 100px;
+        width: 250px;
+    }
+    
+    .camposnya{
+        height: 25px;
+        width: 200px;
     }
 
     #btn{
