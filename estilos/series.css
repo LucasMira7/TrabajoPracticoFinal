@@ -37,7 +37,7 @@ section>div>img{
     border-radius: 50%;
 }
 
-@media(max-width: 320px){
+@media(min-width: 320px){
     section{
         margin-top: 50%;
     }
@@ -54,7 +54,7 @@ section>div>img{
 
 }
 
-@media(max-width: 768px){
+@media (min-width: 768px){
     section{
         margin-top: 15%;
     }

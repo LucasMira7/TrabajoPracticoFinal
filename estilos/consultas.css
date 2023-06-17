@@ -47,7 +47,7 @@ section{
     background-color: rgba(0, 0, 0, 0.5);
 }
 /*---MEDIA QUERY---*/
-@media (max-width:320px){
+@media (min-width:320px){
     section{
         font-size: x-small;
     }
@@ -78,7 +78,7 @@ section{
     }
 }
 
-@media (max-width:768px){
+@media (min-width:768px){
     section{
         font-size: medium;
     }
