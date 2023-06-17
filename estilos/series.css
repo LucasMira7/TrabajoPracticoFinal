@@ -6,7 +6,6 @@
 body{
     background-image: url(../../TrabajoPracticoFinal/img/fondocine.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     height: min-content;
 }
 
@@ -17,6 +16,9 @@ section{
 div{
     display: flex;
     justify-content: center;
+}
+section>div>img{
+    height: 500px;
 }
 
 .boton{
@@ -33,4 +35,38 @@ div{
     opacity: 70%;
     font-size: 80px;
     border-radius: 50%;
+}
+
+@media(max-width: 320px){
+    section{
+        margin-top: 50%;
+    }
+
+    section>div>img{
+    height: 250px;
+    }
+
+    .boton{
+    width: max-content;
+    padding: 1%;
+    font-size: 70px;
+    }
+
+}
+
+@media(max-width: 768px){
+    section{
+        margin-top: 15%;
+    }
+
+    section>div>img{
+    height: 300px;
+    }
+
+    .boton{
+    width: max-content;
+    padding: 1%;
+    font-size: 100px;
+    }
+
 }
