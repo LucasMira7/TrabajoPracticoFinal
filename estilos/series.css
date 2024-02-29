@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(../../TrabajoPracticoFinal/img/fondocine.jpg);
+    background-image: url(../img/fondocine.jpg);
     background-size: cover;
     height: min-content;
 }
